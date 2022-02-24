@@ -157,9 +157,11 @@ module.exports = {
                 });
             });
         }
+		else{
         return res.json({
             success: 0,
             message: "updatation not allowed"
         });
+		}
     },
 };
